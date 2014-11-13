@@ -43,7 +43,7 @@ a {
       max-height: 200px;
       overflow: hidden;
       transition: .5s all;
-      box-shadow: 0px 4px 4px #AAA;
+      box-shadow: 0 0;
       transform: scale(1);
       position: relative; }
       .node--type-article .field-name-field-header-image .field-items .field-item {
