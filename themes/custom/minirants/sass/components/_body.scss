@@ -1,0 +1,83 @@
+.field-name-body {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 30px;
+  font-family: $elegant;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 38px;
+  color: $text;
+
+  code {
+    font-family: $code;
+    display: block;
+    border-left: 2px solid $brand1;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 40px 20px;
+    background-color: #f8f8f8;
+  }
+
+  hr {
+    width: 35%;
+    margin: 45px auto;
+    border: none;
+    border-top: 1px solid #cccccc;
+  }
+
+  p {
+    margin: 30px 0;
+  }
+
+  blockquote {
+    text-align: center;
+    font-size: 34px;
+    line-height: 48px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    font-style: italic;
+
+    margin: 40px -60px;
+    padding: 40px 0;
+    @media (max-width: 900px) {
+      margin: 40px 0;
+    }
+
+    p {
+      margin: 0;
+      + p {
+        margin-top: 20px;
+      }
+    }
+
+    cite {
+      display: block;
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: normal;
+      font-style: normal;
+    }
+  }
+}
+
+.short-rant, [data-history-node-id="1"] {
+  // TODO: remove hardcoded nid
+  perspective: 600px;
+
+  .field-name-body {
+    font-family: $handwritten;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    max-width: 500px;
+    padding: 0 50px;
+    transform: rotate3d(4, 1, 0, 23deg);
+
+    em {
+      font-style: normal;
+      text-decoration: underline;
+    }
+  }
+
+}

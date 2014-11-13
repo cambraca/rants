@@ -1,0 +1,68 @@
+.node--type-article {
+  padding-top: 20px;
+  &:before {
+    content: "";
+
+    display: block;
+    background: url(/themes/custom/minirants/images/torn-paper.png) top center repeat-x;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+  }
+
+  .field-name-field-header-image {
+    max-width: 1280px;
+    max-height: 200px;
+    margin: -56px auto 50px;
+    opacity: .3;
+
+    transition: .5s all;
+    &:hover {
+      .field-items {
+        max-height: 600px;
+        box-shadow: 0px 8px 35px #999;
+        transform: scale(1.01);
+        transition-delay: .2s;
+
+        @media (max-width: 900px) {max-height: 500px;}
+        @media (max-width: 600px) {max-height: 400px;}
+      }
+      opacity: 1;
+      transition-delay: .2s;
+    }
+
+    .field-items {
+      max-height: 200px;
+      overflow: hidden;
+      transition: .5s all;
+      box-shadow: 0px 4px 4px #AAA;
+      transform: scale(1);
+      position: relative;
+
+      .field-item {font-size: 0;}
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .field-name-field-image {
+    padding: 0 30px;
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  //temp
+  > h2 {display: none;}
+  > span {display: none;}
+  > footer {display: none;}
+  > .node__links {display: none;}
+  .field-name-field-tags {display: none;}
+}

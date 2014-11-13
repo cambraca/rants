@@ -1,0 +1,14 @@
+a {
+  text-decoration: none;
+  color: $link;
+
+  background-image: linear-gradient(to top, $link 1px, transparent 1px);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: .3s background-size;
+
+  &:hover {
+    background-size: 100% 100%;
+    transition-delay: .1s;
+  }
+}
