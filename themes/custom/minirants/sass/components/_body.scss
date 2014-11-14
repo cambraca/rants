@@ -15,8 +15,12 @@
     padding: 5px 10px;
     font-size: 14px;
     line-height: 22px;
-    margin: 40px 20px;
     background-color: #f8f8f8;
+
+    margin: 40px 20px;
+    @media (max-width: 700px) {
+      margin: 40px 0;
+    }
   }
 
   hr {
@@ -70,9 +74,11 @@
     font-size: 34px;
     line-height: 38px;
     text-align: center;
-    max-width: 500px;
+    max-width: 600px;
     padding: 0 50px;
     transform: rotate3d(4, 1, 0, 23deg);
+    width: 99%;
+    box-sizing: border-box;
 
     em {
       font-style: normal;
