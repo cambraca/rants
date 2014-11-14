@@ -4,9 +4,10 @@ a {
   background-image: linear-gradient(to top, #0033aa 1px, transparent 1px);
   background-repeat: no-repeat;
   background-size: 0% 100%;
-  transition: .3s background-size; }
+  transition: 0; }
   a:hover {
     background-size: 100% 100%;
+    transition: .3s background-size;
     transition-delay: .1s; }
 
 .node--type-article {
