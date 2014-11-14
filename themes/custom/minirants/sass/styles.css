@@ -19,6 +19,10 @@ header[role=banner] {
   line-height: 30px; }
   header[role=banner] h1 {
     margin: 55px 0 10px; }
+    header[role=banner] h1 a {
+      background-image: linear-gradient(to top, transparent 11px, #0033aa 12px, transparent 14px); }
+      header[role=banner] h1 a:hover {
+        transition: .6s background-size; }
 
 .node--type-article:before {
   content: "";

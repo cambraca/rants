@@ -8,5 +8,12 @@ header[role=banner] {
 
   h1 {
     margin: 55px 0 10px;
+
+    a {
+      background-image: linear-gradient(to top, transparent 11px, $link 12px, transparent 14px);
+      &:hover {
+        transition: .6s background-size;
+      }
+    }
   }
 }
