@@ -9,9 +9,9 @@ header[role=banner] {
   .site-name {
     margin: 55px 0 10px;
     display: block;
+    font-size: 60px;
 
     a {
-      font-size: 60px;
       background-image: linear-gradient(to top, transparent 11px, $link 12px, transparent 14px);
       &:hover {
         transition: .6s background-size;
