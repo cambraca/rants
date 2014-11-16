@@ -17,12 +17,26 @@ header[role=banner] {
   font-family: "Reenie Beanie", cursive;
   font-size: 30px;
   line-height: 30px; }
-  header[role=banner] h1 {
-    margin: 55px 0 10px; }
-    header[role=banner] h1 a {
+  header[role=banner] .site-name {
+    margin: 55px 0 10px;
+    display: block; }
+    header[role=banner] .site-name a {
+      font-size: 60px;
       background-image: linear-gradient(to top, transparent 11px, #0033aa 12px, transparent 14px); }
-      header[role=banner] h1 a:hover {
+      header[role=banner] .site-name a:hover {
         transition: .6s background-size; }
+
+main > .layout-content > h1 {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 48px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  transform: rotateZ(-90deg) translateY(-40px) translateX(-20px);
+  transform-origin: 100% 50%;
+  opacity: .2; }
 
 .node--type-article:before {
   content: "";

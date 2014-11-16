@@ -6,14 +6,32 @@ header[role=banner] {
   font-size: 30px;
   line-height: 30px;
 
-  h1 {
+  .site-name {
     margin: 55px 0 10px;
+    display: block;
 
     a {
+      font-size: 60px;
       background-image: linear-gradient(to top, transparent 11px, $link 12px, transparent 14px);
       &:hover {
         transition: .6s background-size;
       }
     }
   }
+}
+
+main > .layout-content > h1 {
+  font-family: $handwritten;
+  font-size: 48px;
+  text-transform: uppercase;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+
+  transform: rotateZ(-90deg) translateY(-40px) translateX(-20px);
+  transform-origin: 100% 50%;
+
+  opacity: .2;
 }
