@@ -7,4 +7,3 @@ core: '8.x'
 stylesheets:
   all:
     - sass/styles.css
-    - http://fonts.googleapis.com/css?family=Reenie+Beanie
