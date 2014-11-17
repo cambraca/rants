@@ -1,0 +1,11 @@
+<?php
+
+function minirants_preprocess_node(&$vars) {
+  if (!isset($vars['node']) || !isset($vars['content']['body']))
+    return;
+
+  $nid = $vars['node']->id();
+  $url = 'http://aristechrats.wtf/'.$nid; //TODO: improve this to get the node's alias
+  $title = $vars['node']->label();
+  $vars['content']['body'][0]['#suffix'] = '<a href="https://twitter.com/intent/tweet?text='.urlencode($title).'&url='.urlencode($url).'" class="button tweet">tweet</a>';
+}
