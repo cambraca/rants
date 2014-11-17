@@ -4,10 +4,11 @@
 
     display: block;
     background: url(/themes/custom/minirants/images/torn-paper.png) top center repeat-x;
-    height: 60px;
+    background-size: 350px 20px;
+    margin-bottom: 50px;
+    height: 20px;
     position: relative;
     z-index: 1;
-    margin-bottom: 40px;
   }
 
   .field-name-field-header-image {
@@ -64,4 +65,5 @@
   > footer {display: none;}
   > .node__links {display: none;}
   .field-name-field-tags {display: none;}
+  h1 {display: none;}
 }

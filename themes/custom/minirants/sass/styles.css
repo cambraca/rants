@@ -45,10 +45,11 @@ article.node--type-page {
   content: "";
   display: block;
   background: url(/themes/custom/minirants/images/torn-paper.png) top center repeat-x;
-  height: 60px;
+  background-size: 350px 20px;
+  margin-bottom: 50px;
+  height: 20px;
   position: relative;
-  z-index: 1;
-  margin-bottom: 40px; }
+  z-index: 1; }
 .node--type-article .field-name-field-header-image {
   max-width: 1280px;
   max-height: 200px;
@@ -97,6 +98,8 @@ article.node--type-page {
 .node--type-article > .node__links {
   display: none; }
 .node--type-article .field-name-field-tags {
+  display: none; }
+.node--type-article h1 {
   display: none; }
 
 .field-name-body {
@@ -165,3 +168,30 @@ article.node--type-page {
     .short-rant .field-name-body em, [data-history-node-id="1"] .field-name-body em {
       font-style: normal;
       text-decoration: underline; }
+
+a.button {
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-image: linear-gradient(to top, #0033aa, #0033aa);
+  overflow: hidden; }
+  a.button:before {
+    content: "";
+    display: block;
+    height: 25px;
+    background-size: 25px 25px; }
+  a.button:hover {
+    transition-duration: .5s; }
+
+a.button.tweet {
+  float: right;
+  margin-right: -30px; }
+  p + a.button.tweet {
+    margin-top: -62px; }
+  @media (max-width: 800px) {
+    a.button.tweet {
+      margin-right: 0; }
+      p + a.button.tweet {
+        margin-top: -27px; } }
+  a.button.tweet:before {
+    background-image: url(/themes/custom/minirants/images/twitter-icon.png); }
