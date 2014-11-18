@@ -153,9 +153,9 @@ article.node--type-page {
       font-weight: normal;
       font-style: normal; }
 
-.short-rant, [data-history-node-id="1"] {
+.short-rant {
   perspective: 600px; }
-  .short-rant .field-name-body, [data-history-node-id="1"] .field-name-body {
+  .short-rant .field-name-body {
     font-family: "Reenie Beanie", cursive;
     font-size: 34px;
     line-height: 38px;
@@ -165,7 +165,7 @@ article.node--type-page {
     transform: rotate3d(4, 1, 0, 23deg);
     width: 99%;
     box-sizing: border-box; }
-    .short-rant .field-name-body em, [data-history-node-id="1"] .field-name-body em {
+    .short-rant .field-name-body em {
       font-style: normal;
       text-decoration: underline; }
 
