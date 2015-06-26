@@ -3,7 +3,6 @@
   margin: 0 auto;
   padding: 0 30px;
   font-family: $elegant;
-  font-weight: 600;
   font-size: 22px;
   line-height: 38px;
   color: $text;
@@ -36,8 +35,8 @@
 
   blockquote {
     text-align: center;
-    font-size: 34px;
-    line-height: 48px;
+    font-size: 30px;
+    line-height: 44px;
     border-top: 1px solid #cccccc;
     border-bottom: 1px solid #cccccc;
     font-style: italic;
@@ -58,9 +57,8 @@
     cite {
       display: block;
       margin-top: 20px;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: normal;
-      font-style: normal;
     }
   }
 }
