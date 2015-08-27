@@ -13,9 +13,9 @@ header[role=banner] {
 
     a {
       background-image: linear-gradient(to top, transparent 13px, $link 14px, transparent 16px);
-      background-size: 95% 100%;
       background-position: right;
       &:hover {
+        background-size: 95% 100%;
         transition: .6s background-size;
       }
     }

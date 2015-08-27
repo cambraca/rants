@@ -24,9 +24,9 @@ header[role=banner] {
     font-size: 60px; }
     header[role=banner] .site-name a {
       background-image: linear-gradient(to top, transparent 13px, #03a 14px, transparent 16px);
-      background-size: 95% 100%;
       background-position: right; }
       header[role=banner] .site-name a:hover {
+        background-size: 95% 100%;
         transition: .6s background-size; }
 
 main > .layout-content > h1 {
