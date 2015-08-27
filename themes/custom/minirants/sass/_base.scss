@@ -2,10 +2,11 @@ a {
   text-decoration: none;
   color: $link;
 
-  background-image: linear-gradient(to top, $link 1px, transparent 1px);
+  text-shadow: 0.03em 0 rgb(255, 255, 255), -0.03em 0 rgb(255, 255, 255), 0 0.03em rgb(255, 255, 255), 0 -0.03em rgb(255, 255, 255), 0.06em 0 rgb(255, 255, 255), -0.06em 0 rgb(255, 255, 255), 0.09em 0 rgb(255, 255, 255), -0.09em 0 rgb(255, 255, 255), 0.12em 0 rgb(255, 255, 255), -0.12em 0 rgb(255, 255, 255), 0.15em 0 rgb(255, 255, 255), -0.15em 0 rgb(255, 255, 255);
+  background-image: linear-gradient(to top, transparent 2px, $link 3px, transparent 3px);
   background-repeat: no-repeat;
   background-size: 0% 100%;
-  transition: 0;
+  transition: 0s;
 
   &:hover {
     background-size: 100% 100%;
